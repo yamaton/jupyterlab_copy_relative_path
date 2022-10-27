@@ -4,7 +4,7 @@
 ## Ref: https://github.com/jupyterlab/extension-examples
 
 # create a conda environment
-mamba env create && conda activate copyrelativepath
+mamba env create && conda activate jupyterlab-copy-relative-path
 
 # install the extension in editable mode
 python -m pip install -e .

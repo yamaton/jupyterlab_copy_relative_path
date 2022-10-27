@@ -1,7 +1,7 @@
 import {
   JupyterFrontEnd,
   JupyterFrontEndPlugin,
-  ILabShell
+  ILabShell,
 } from '@jupyterlab/application';
 import { IFileBrowserFactory } from '@jupyterlab/filebrowser';
 import { IDocumentManager } from '@jupyterlab/docmanager';
@@ -51,9 +51,9 @@ const extension: JupyterFrontEndPlugin<void> = {
         !!factory.tracker.currentWidget &&
         !!factory.tracker.currentWidget.selectedItems().next() &&
         !!labShell.currentWidget &&
-        !!docManager.contextForWidget(labShell.currentWidget)
+        !!docManager.contextForWidget(labShell.currentWidget),
     });
-  }
+  },
 };
 
 const getRelativePath = (target: string, reference: string): string => {
