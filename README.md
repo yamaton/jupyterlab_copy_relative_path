@@ -1,9 +1,9 @@
 # Copy Relative Path
 
-> Add a new button **"Copy Relative Path"** in a context menu of JuypyterLab.
+> Adds **'Copy Relative Path'** to a context menu of JupyterLab file browser.
 
 
-This extension would be useful when specifying a file path from a notebook you're working on. The "Copy Relative Path" button copies a path relative to an active document; it will hide when an active window does not provide a reference path; i.e. a Launch page and a Console window.
+This extension would be useful when specifying a file or a directory from a notebook. The path is relative to an active document; the button will hide when an active window does not provide a reference path; i.e. when a Launch page or a Console window is active.
 
 
 ![copy relative path demo](preview.png)
@@ -12,5 +12,5 @@ This extension would be useful when specifying a file path from a notebook you'r
 # Install
 
 ```shell
-pip install jupyterlab_copy_relative_path
+pip install jupyterlab-copy-relative-path
 ```
