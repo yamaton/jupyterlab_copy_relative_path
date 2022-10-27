@@ -1,0 +1,15 @@
+{
+  "title": "Context Menu Example",
+  "description": "Context Menu Example settings.",
+  "jupyter.lab.menus": {
+    "context": [
+      {
+        "command": "filebrowser:copy-relative-path",
+        "selector": ".jp-DirListing-item[data-isdir]",
+        "rank": 15
+      }
+    ]
+  },
+  "additionalProperties": false,
+  "type": "object"
+}
