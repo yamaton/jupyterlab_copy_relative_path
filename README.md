@@ -1,6 +1,7 @@
 # Copy Relative Path
 
 [![PyPI](https://img.shields.io/pypi/v/jupyterlab-copy-relative-path)](https://pypi.org/project/jupyterlab-copy-relative-path/)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/jupyterlab-copy-relative-path)](https://anaconda.org/conda-forge/jupyterlab-copy-relative-path)
 
 > Adds **'Copy Relative Path'** to a context menu of JupyterLab file browser.
 
@@ -10,6 +11,14 @@ This extension would be useful when specifying a file or a directory from a note
 
 # Install
 
+Install with `pip`.
+
 ```shell
 pip install jupyterlab-copy-relative-path
+```
+
+Or, via `conda-forge`.
+
+```shell
+conda install -c conda-forge jupyterlab-copy-relative-path
 ```
