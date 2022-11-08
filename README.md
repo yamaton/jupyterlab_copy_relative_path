@@ -7,7 +7,7 @@
 
 This extension would be useful when specifying a file or a directory from a notebook. The path is relative to an active document; the button will hide when an active window does not provide a reference path; i.e. when a Launch page or a Console window is active.
 
-![copy relative path demo](preview.png)
+![copy relative path demo](https://github.com/yamaton/jupyterlab_copy_relative_path/raw/main/preview.png)
 
 # Install
 
