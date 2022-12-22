@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab_copy_relative_path",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds 'Copy Relative Path' to a context menu of JupyterLab file browser.",
   "keywords": [
     "jupyter",
