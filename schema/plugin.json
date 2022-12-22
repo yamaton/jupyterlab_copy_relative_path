@@ -7,6 +7,11 @@
         "command": "filebrowser:copy-relative-path",
         "selector": ".jp-DirListing-item[data-isdir]",
         "rank": 15
+      },
+      {
+        "command": "docmanager:copy-relative-path",
+        "selector": "[data-type=\"document-title\"]",
+        "rank": 15
       }
     ]
   },
